@@ -20,7 +20,6 @@
 			const threeRef = ref();
 			function init() {
 				const scene = new Scene();
-
 				const axes = new AxesHelper(20);
 				scene.add(axes);
 				const planeGeometry = new PlaneGeometry(60, 20);
