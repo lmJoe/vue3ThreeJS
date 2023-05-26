@@ -1,0 +1,25 @@
+{
+  "name": "vue3-threejs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "stats.js": "^0.17.0",
+    "three": "^0.137.5",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "@types/stats.js": "^0.17.0",
+    "@types/three": "^0.137.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
