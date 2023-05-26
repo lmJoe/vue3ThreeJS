@@ -23,7 +23,6 @@
 
 				const axes = new AxesHelper(20);
 				scene.add(axes);
-
 				const planeGeometry = new PlaneGeometry(60, 20);
 				const planeMaterial = new MeshBasicMaterial({ color: 0xcccccc });
 				const plane = new Mesh(planeGeometry, planeMaterial);
